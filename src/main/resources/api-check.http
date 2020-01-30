@@ -1,0 +1,8 @@
+POST http://localhost:8081/api/sms
+Content-Type: application/json
+
+{
+  "phoneNumber" : "91xxxxxxxxxxxx",
+  "message" : "Here is the verification message from TWILIO api"
+}
+###
